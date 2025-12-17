@@ -1,0 +1,45 @@
+.button-action-add {
+    width: auto;
+    font-weight: 500;
+    font-size: 14px ;
+    height: 20px ;
+    padding: 8px 12px 8px 8px;
+    background-color: #2680eb;
+    color: #fff;
+    cursor: pointer;
+} 
+
+.button-action-left {
+    border-radius: 4px 0 0 4px;
+}
+
+.button-action-right {
+    border-radius: 0 4px 4px 0;
+}
+
+.button-action-add:hover {
+    background-color: #63a4f4;
+}
+
+.button-action-add span {
+    margin: 3px;
+} 
+
+.toolbar-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.toolbar-btn:hover {
+    background: #f9fafb;
+}
+
+
+

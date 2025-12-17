@@ -1,0 +1,66 @@
+.table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e7eb;
+    font-size: 14px;
+    color: #374151;
+}
+
+/* Bên trái */
+.footer-left strong {
+    font-weight: 600;
+}
+
+/* Bên phải */
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Label */
+.footer-label {
+    color: #6b7280;
+}
+
+/* Select */
+
+
+.page-size-content {
+    height: 32px;
+    padding: 0 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Text range */
+.footer-range {
+    color: #374151;
+    white-space: nowrap;
+}
+
+/* Pagination */
+.footer-pagination {
+    display: flex;
+    gap: 4px;
+}
+
+.page-btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #d1d5db;
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.page-btn:hover {
+    background: #f3f4f6;
+}

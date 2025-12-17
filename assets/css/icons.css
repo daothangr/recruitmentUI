@@ -1,0 +1,249 @@
+.icon {
+    mask: url("../icons/ICON.svg") no-repeat;
+    width: 20px;
+    height: 20px;   
+}
+
+.icon-default {
+    background: url("../icons/ICON.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-switch-app {
+    mask-position: -15px -47px;
+    height: 17px;
+    background-color: rgb(255, 255, 255);
+}
+
+.icon-recruitment {
+    background-position: -225px -275px;
+    width: 33px;
+    height: 34px;
+}
+
+.icon-search {
+    mask-position: -311px -1105px;
+	width: 18px;
+	height: 18px;
+    background-color: rgb(175, 175, 175);
+}
+
+.icon-earth {
+    mask-position: 0 -608px;
+	width: 21px;
+	height: 21px;
+    background-color: rgb(99, 99, 99);
+}
+
+.icon-loudspeaker {
+    background: url(https://amisplatform.misacdn.net/apps/recruit/icon-notification-version.d5e3dc604036ed5b.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-cart {
+    height: 20px;
+    aspect-ratio: 1 / 1;
+    background: url(https://cdnstore.misacdn.net/lib/static/cs-icon-store.svg) no-repeat center;
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+
+.icon-invitebox {
+    mask-position: -338px -81px;
+	width: 14px;
+	height: 14px;
+    background-color: rgb(99, 99, 99);
+}
+
+.icon-message {
+    background-position: -282px -562px;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-notify {
+    mask-position: -2px -634px;
+	width: 20px;
+	height: 21px;
+    background-color: rgb(99, 99, 99);
+}
+
+.icon-helpmenu {
+    mask-position: -74px -610px;
+	width: 20px;
+	height: 20px;
+    background-color: rgb(99, 99, 99);
+}
+
+.icon-moremenu {
+    mask-position: -75px -847px;
+	width: 18px;
+	height: 18px;
+    background-color: rgb(99, 99, 99);
+}
+
+.icon-knowelge {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCjxwYXRoIGQ9Ik0zIDEwVjIxIiBzdHJva2U9IiNGRkFBMkIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+DQo8cGF0aCBkPSJNMyAxMEMzLjA2NjY3IDkuNjY2NjcgMy41NiA5IDUgOSIgc3Ryb2tlPSIjRkZBQTJCIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPHBhdGggZD0iTTIxIDEwQzIwLjkzMzMgOS42NjY2NyAyMC40NCA5IDE5IDkiIHN0cm9rZT0iI0ZGQUEyQiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4NCjxwYXRoIGQ9Ik0yMSAxMFYyMSIgc3Ryb2tlPSIjRkZBQTJCIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPHBhdGggZD0iTTMgMjFDNC4zNjgxNyAyMC4yMSA1LjkyMDE3IDE5Ljc5NDIgNy41IDE5Ljc5NDJDOS4wNzk4MyAxOS43OTQyIDEwLjYzMTggMjAuMjEgMTIgMjFDMTMuMzY4MiAyMC4yMSAxNC45MjAyIDE5Ljc5NDIgMTYuNSAxOS43OTQyQzE4LjA3OTggMTkuNzk0MiAxOS42MzE4IDIwLjIxIDIxIDIxIiBzdHJva2U9IiNGRkFBMkIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+DQo8cGF0aCBkPSJNOS42IDEyLjA3MTRDOC45MjgzOCAxMS41NzY3IDguNDMyMjcgMTAuODg3IDguMTgxOTUgMTAuMDk5OUM3LjkzMTYzIDkuMzEyOTEgNy45Mzk3OCA4LjQ2ODQ3IDguMjA1MjYgNy42ODYyNUM4LjQ3MDc1IDYuOTA0MDIgOC45ODAxIDYuMjIzNjYgOS42NjExNiA1Ljc0MTU1QzEwLjM0MjIgNS4yNTk0MyAxMS4xNjA1IDUgMTIgNUMxMi44Mzk1IDUgMTMuNjU3OCA1LjI1OTQzIDE0LjMzODggNS43NDE1NUMxNS4wMTk5IDYuMjIzNjYgMTUuNTI5MyA2LjkwNDAyIDE1Ljc5NDcgNy42ODYyNUMxNi4wNjAyIDguNDY4NDcgMTYuMDY4NCA5LjMxMjkxIDE1LjgxODEgMTAuMDk5OUMxNS41Njc3IDEwLjg4NyAxNS4wNzE2IDExLjU3NjcgMTQuNCAxMi4wNzE0QzE0LjA4NzcgMTIuMzc1MSAxMy44NTI1IDEyLjc0NjcgMTMuNzEzNSAxMy4xNTYyQzEzLjU3NDUgMTMuNTY1NyAxMy41MzU2IDE0LjAwMTYgMTMuNiAxNC40Mjg2QzEzLjYgMTQuODQ1MyAxMy40MzE0IDE1LjI0NSAxMy4xMzE0IDE1LjUzOTdDMTIuODMxMyAxNS44MzQ0IDEyLjQyNDMgMTYgMTIgMTZDMTEuNTc1NyAxNiAxMS4xNjg3IDE1LjgzNDQgMTAuODY4NiAxNS41Mzk3QzEwLjU2ODYgMTUuMjQ1IDEwLjQgMTQuODQ1MyAxMC40IDE0LjQyODZDMTAuNDY0NCAxNC4wMDE2IDEwLjQyNTUgMTMuNTY1NyAxMC4yODY1IDEzLjE1NjJDMTAuMTQ3NSAxMi43NDY3IDkuOTEyMzUgMTIuMzc1MSA5LjYgMTIuMDcxNFoiIHN0cm9rZT0iI0ZGQUEyQiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4NCjxwYXRoIGQ9Ik0xMC4xNjAyIDEyLjg1NzJIMTMuODQwMiIgc3Ryb2tlPSIjRkZBQTJCIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+DQo8cGF0aCBkPSJNMTIgMkwxMiAxIiBzdHJva2U9IiNGRkFBMkIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+DQo8cGF0aCBkPSJNNyA0TDYuMDQ0OTkgMy43MDM0NCIgc3Ryb2tlPSIjRkZBQTJCIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPg0KPHBhdGggZD0iTTE2Ljk5OTggNEwxNy45NTQ4IDMuNzAzNDQiIHN0cm9rZT0iI0ZGQUEyQiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4NCjwvc3ZnPg0K);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    width: 32px;
+    height: 32px;
+}
+
+.header-icon-user {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    display: inline-flex;
+    border-radius: 50%;
+}
+
+.icon-sidebar-recruiment {
+    mask-position: -94px -113px;
+    width: 24px;
+    height: 24px;
+    background-color: #c5ccd5;
+}
+
+.icon-sidebar-candidate {
+    width: 24px;
+    height: 24px;
+    mask-position: -24px -112px;
+    background-color: #ffffff;
+}
+
+.icon-sidebar-calendar {
+    width: 24px;
+    height: 24px;
+    mask-position: -144px -113px;
+    background-color: #c5ccd5;
+}
+
+.icon-sidebar-talent-pools {
+    width: 24px;
+    height: 24px;
+    mask-position: 0px -112px;
+    background-color: #c5ccd5;   
+}
+
+.icon-sidebar-recruitment-campaign {
+    width: 22px;
+    height: 22px;
+    mask-position: -73px -633px;
+    background-color: #ffffff;
+}
+
+.icon-sidebar-task {
+    width: 24px;
+    height: 24px;
+    mask-position: -336px -113px;
+    background-color: #c5ccd5;
+}
+
+.icon-sidebar-other {
+    width: 24px;
+    height: 24px;
+    mask-position: -359px -614px;
+    background-color: #ffffff;
+}
+
+.icon-arrow-left {
+    width: 20px;
+    height: 20px;
+    mask-position: -60px -696px;
+}
+
+.icon-arrow-right {
+    width: 20px;
+    height: 20px;
+    mask-position: -40px -696px;
+}
+
+.icon-add {
+    width: 20px;
+    height: 20px;
+    mask-position: -20px -656px;
+
+}
+
+.icon-arrow-down {
+    width: 16px;
+    height: 16px;
+    mask-position: -32px -48px;
+}
+
+.ai-icon {
+    width: 24px;
+    height: 24px !important;
+    background-image: url(https://amisplatform.misacdn.net/apps/recruit/assets/images/ai-feature/ai-search-candidate.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.icon-filter {
+    width: 20px;
+    height: 20px;
+    mask-position: -40px -656px;
+    background-color: #7a8188
+}
+
+.icon-export {
+    background-color: #7a8188;
+    width: 20px;
+    height: 20px;
+    mask-position: -60px -656px;
+}
+
+.icon-activity {
+    width: 24px;
+    height: 24px;
+    mask-position: 0 -844px;
+    background-color: #7a8188;
+}
+
+.icon-setting {
+    width: 24px;
+    height: 24px;
+    mask-position: -24px -608px;
+    background-color: #7a8188;
+}
+
+.icon-close {
+    width: 22px;
+    height: 22px;
+    mask-position: -73px -136px;
+}
+
+.star {
+    font-size: 16px;
+    color: #d1d5db; 
+}
+
+.star.active {
+    color: #facc15;
+}
+
+.icon-calendar-small {
+    mask-position:  -273px -17px;
+	width: 14px;
+	height: 13px;
+    background-color: #6b6b6b;;
+}
+
+.icon-star-yellow {
+    width: 18px;
+    height: 18px;
+    background-position: -190px -16px;
+}
+
+.icon-star-gray {
+    width: 18px;
+    height: 18px;
+    mask-position: -190px -16px;
+    background-color: #d1d5db;
+}

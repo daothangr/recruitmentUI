@@ -1,0 +1,811 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Container */
+.container {
+    width: auto;
+    height: 100vh;
+    background-color: aqua;
+}
+
+/* Header */
+.container .header {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.header .header-left {
+    max-width: 650px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.header .header-right {
+    max-width: 650px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+}
+
+/* Header Title */
+.header-title {
+    background-position: left;
+    background-image: url(https://amisplatform.misacdn.net/apps/recruit/navbar-bg-noel.ff04816e6511986f.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+}
+
+/* Icon Recruitment */
+.header-recruitment {
+    margin: 0 16px;
+    height: 48px;
+}
+
+.header-recruitment-logo {
+    position: absolute;
+    left: 32px;
+    top: 8px;
+    z-index: 1;
+}
+
+.header-background-noel {
+    background-image: url(https://amisplatform.misacdn.net/apps/recruit/event-header.8a0adb3bd0c107ff.svg);
+    height: 48px;
+    width: 103px;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+/* Header Title Name */
+.header-title-name {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    user-select: none;
+    margin-left: -12px;
+}
+
+/* Header Search */
+.header-search {
+    width: 365px;
+    height: 32px;
+    background-color: #efeeee;
+}
+
+.header-search-container {
+    gap: 8px;
+}
+
+.header-search-container input {
+    border: none;
+    outline: none;
+    flex: 1;
+    width: 100%;
+    background-color: #efeeee;
+}
+
+input::placeholder {
+    color: #bcbcbc;
+    font-size: 14px;
+    color: #b1b1b1;
+}
+
+.header-recruitment-page {
+    gap: 8px;
+    min-width: 153px;
+}
+
+.header-website-text {
+    min-height: 24px;
+    line-height: 32px;
+    padding: 4px 0;
+    font-size: 14px;
+}
+
+/* Content */
+.container .content {
+    width: 100%;
+    background-color: blue;
+}
+
+/* Sidebar */
+.content .sidebar {
+    background-image: url(https://amisplatform.misacdn.net/apps/recruit/event-sidebar.86fc6daf7938e471.svg);
+    background-color: #051529;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 233px;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.sidebar-content {
+    height: calc(100% - 56px);
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+    border: 1px solid #dee2e6 !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 30px !important;
+    color: #fff !important;
+}
+
+
+/* Main Content */
+.content .main-content {
+    background-color: rgb(225, 225, 225);
+}
+
+.main-content-title {
+    width: 100%;
+    height: 50px;
+    padding: 16px 24px 0 24px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+
+.content-title-infor {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.content-title-arrow-down {
+    width: 20px;
+    height: 36px;
+    padding-left: 12px;
+    border-left: 1px solid #176cd1;
+}
+.main-content-container {
+    margin-left: 24px;
+    min-width: 0;
+    height: 100%;
+}
+
+.main-content-toolbar {
+    width: 100%;
+    flex-shrink: 0;
+    height: 56px;
+    padding: 0 16px;
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+    border: none !important;
+}
+
+.content-toolbar-left {
+    position: relative;
+    gap: 8px;
+    width: 250px;
+}
+
+.toolbar-search {
+    flex: 1;
+    height: 36px;
+    width: 100%;
+    padding: 0 12px;
+    padding-left: 32px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.toolbar-search-icon-ai {
+    position: absolute;
+    left: 5px;
+}
+
+.toolbar-search::placeholder {
+    color: #9ca3af;
+}
+
+/* RIGHT */
+.toolbar-right {
+    gap: 12px;
+}
+
+/* Main Content Candidate */
+.main-content-candidate {
+    background-color: #fff;
+    max-height: 300px;
+    width: 100%;
+    min-width: 0;
+    overflow-y: auto;
+}
+
+.candidate-table-container {
+    width: 1000px;
+}
+
+.candidate-table{
+    position: relative;
+    width: 100%;
+    min-width: max-content; 
+    border-collapse: collapse;
+}
+
+.candidate-table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f9fafb;
+    height: 40px;
+    z-index: 3;
+    background: #f9fafb;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+    color: #374151;
+    border-bottom: 1px solid #ececec;
+    border-left: 1px solid #eff0f3;
+    border-right: 1px solid #eff0f3;
+}
+
+.candidate-table tbody td {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #ececec;
+    height: 40px;
+}
+
+
+.candidate-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.candidate-table tbody tr:hover {
+    background-color: #e6f4ff; 
+}
+
+
+.candidate-table th,
+.candidate-table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+/* Check Box */
+.col-checkbox {
+    width: 44px;
+    min-width: 44px;
+    text-align: center !important;
+}
+
+.checkbox-all,
+.checkbox-row {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+
+/* Form Add Candidate */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.4);
+    z-index: 9999;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.popup-candidate {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 560px;
+    height: 520px;
+    border-radius: 8px;
+}
+
+.popup-close-btn {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1;
+    color: #333;
+    margin: 16px 24px 0 0;
+    padding: 0;
+}
+
+.popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 16px 0 24px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.popup-content {
+    padding: 24px !important;
+    font-size: 14px;
+    overflow-y: auto;
+}
+
+/* Content Upload CV */
+.popup-content-uploadcv {
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+    padding: 24px 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.popup-content-uploadcv a {
+    color: #2a6cdf;
+    text-decoration: none;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/* Popup Footer */
+.popup-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 12px 24px;
+    border-top: 1px solid #ddd;
+}
+
+button.popup-footer-cancel {
+    background: #f0f0f0;
+    color: #555;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+button.popup-footer-save {
+    background: #2a6cdf;
+    color: white;
+    padding: 8px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Candidate form layout */
+.popup-content-candidate {
+    display: flex;
+    gap: 16px;
+}
+
+/* Avatar */
+.popup-content-avatar {
+    width: 72px;
+    flex-shrink: 0;
+}
+
+.avatar-circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px dashed #d1d5db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-group {
+    flex: 1;
+}
+
+.popup-content-infor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.name-infor {
+    font-size: 14px;
+    color: #1e2633;
+    height: 25px !important;
+    line-height: 25px !important;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.color-red {
+    color: #ff1d1d !important;
+    margin-left: 4px;
+}
+
+.select-form-date {
+    color: #b2b2b2;
+}
+
+
+/* Input Infor */
+.input-infor {
+    height: 32px !important;
+    width: 100%;
+    line-height: 32px !important;
+    padding: 0 16px;
+    padding-top: 2px;
+    font-size: 14px !important;
+    border: 1px solid #dddde4;
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.input-infor:focus {
+    border-color: #2a6cdf;     
+}
+
+/* Input Infor Date */
+.input-infor-date {
+    position: relative;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.input-infor-date .input-infor {
+    width: 100%;
+    height: 40px;
+    padding-right: 44px;        
+    border: none;
+    outline: none;
+    padding-left: 12px;
+}
+
+/* icon calendar */
+.icon-calendar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #e5e7eb;
+    background-color: #fff;
+    pointer-events: none;
+}
+
+/* Form Row Layout */
+.form-row {
+    display: flex;
+    margin-top: 12px;
+    gap: 12px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.form-row .form-group {
+    flex: 1;           
+}
+
+.form-group-half {
+    flex: 1;
+}
+
+.form-group-third {
+    flex: 1;
+}
+
+
+/* ===== Education Section ===== */
+.education-section {
+    margin-top: 24px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1e2633;
+    margin-bottom: 12px;
+}
+
+/* Row */
+.education-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+/* Label */
+.education-label {
+    width: 160px;
+    font-size: 14px;
+    color: #1e2633;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.education-label .dot {
+    font-size: 18px;
+    line-height: 1;
+}
+
+/* Input + buttons */
+.education-input-wrapper {
+    position: relative;
+    align-items: center;
+}
+
+.education-input {
+    width: 100%;
+    padding-right: 72px; /* chừa chỗ cho + và mũi tên */
+}
+
+.add-section {
+    margin-top: 20px;
+}
+
+.add-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.add-plus {
+    color: #2a6cdf;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add-text {
+    color: #2a6cdf;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Boder Bottom */
+.boder-bottom {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e5e7eb; 
+}
+
+/* Input có icon */
+.input-icon-wrapper {
+    position: relative;
+}
+
+.input-icon-wrapper .input-infor {
+    padding-right: 36px;
+}
+
+
+/* Checkbox */
+.checkbox-row {
+    margin-top: 8px;
+}
+
+.checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #1e2633;
+    cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin: 0;
+    flex-shrink: 0; 
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+
+.checkbox-text {
+    display: inline-block;
+    line-height: 16px;             
+    white-space: nowrap;           
+}
+
+/* Plus button */
+.education-plus {
+    position: absolute;
+    right: 36px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: none;
+    color: #2a6cdf;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Arrow button */
+.education-arrow {
+    position: absolute;
+    right: 4px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: none;
+    color: #666;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+/* Add Reference Button */
+.add-reference-btn {
+    background: none;
+    border: 1px solid #666;
+    color: #666;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+
+.add-reference-btn:hover {
+    background-color: #f5f5f5;
+}
+
+/* Scrollbar Styling */
+.popup-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.popup-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.popup-content::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Icon Close */
+.icon-close {
+    width: 24px;
+    height: 24px;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+}
+
+.icon-close:hover {
+    background-color: #333 !important;
+}
+
+.select-placeholder {
+    color: #9ca3af; 
+}
+
+.select-placeholder:has(option:checked:not([value=""])) {
+    color: #1e2633; 
+}
+
+
+/* Avatar */
+.candidate-name-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.candidate-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.candidate-avatar-text {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.candidate-name {
+    white-space: nowrap;
+}
+
+/* Candidate Badge New */
+.candidate-badge-new {
+    margin-left: 6px;
+    padding: 2px 6px;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    color: #fff;
+    background-color: #3b82f6; 
+    border-radius: 6px;
+
+    white-space: nowrap;
+}
+
+
+/* Iocn Edit */
+.floating-icon {
+    position: fixed;
+    right: 10px;
+    width: 44px;
+    height: 44px;
+    background-color: #2563eb;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0 0 8px;
+    cursor: pointer;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+}
+
+.floating-icon.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+
+
+

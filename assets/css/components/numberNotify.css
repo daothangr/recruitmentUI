@@ -1,0 +1,23 @@
+.notify-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-count {
+    position: absolute;
+    top: -7px;
+    right: -10px;
+    height: 16px;
+    padding: 0 4px;
+    background-color: #ff4d4f;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 999px; 
+    box-sizing: border-box;
+
+}
