@@ -49,10 +49,12 @@
              </div>
              <!-- Header Right -->
               <div class="header-right display-flex justify-content-center align-items-center justify-content-between">
+                <!-- Recruitment website link -->
                 <div class="header-recruitment-page display-flex cusor-point align-items-center">
                     <div class="icon-earth icon"></div>
                     <div class="header-website-text">Website tuyển dụng</div>
                 </div>
+                <!-- Notification & action icons -->
                 <div class="cusor-point">
                     <div class="icon-loudspeaker"></div>
                 </div>
@@ -79,6 +81,7 @@
                 <div class="cusor-point">
                     <div class="icon-knowelge "></div>
                 </div>
+                <!-- User avatar -->
                 <div class="cusor-point header-icon-user" style="margin-right: 15px">
                     <img src="https://i.pravatar.cc/150?img=3" 
                         alt="User Avatar" 
@@ -93,12 +96,14 @@
             <div class="sidebar">
                 <!-- Sidebar Contain -->
                 <div class="sidebar-list">
+                     <!-- Sidebar item -->
                     <div class="sidebar-item">
                         <a href="#" class="decoration-none display-flex align-items-center" data-title="Tin tuyển dụng">
                             <div class="icon-sidebar-recruiment icon"></div>
                             <div class="sidebar-item-content" >Tin tuyển dụng</div>
                         </a>
                     </div>
+                    <!-- Active sidebar item -->
                     <div class="sidebar-item sidebar-item-active">
                         <a href="#" class="decoration-none display-flex align-items-center" data-title="Ứng viên">
                             <div class="icon-sidebar-candidate icon"></div>
@@ -146,19 +151,22 @@
             </div>
              <!-- Main content -->
             <div class="main-content display-flex flex1 flex-direction-column">
-            <div class="main-content-title display-flex justify-content-between">
-                <div class="content-title-infor ">Ứng viên</div>
-                <div class="display-flex ">
-                    <div class="button-action-add button-action-left display-flex align-items-center" id="button-add-candidate">
-                        <span><div class="icon-add icon" style="background-color: #fff;"></div></span>
-                        <span >Thêm ứng viên</span>
-                    </div>
-                    <div class="button-action-add button-action-right content-title-arrow-down display-flex justify-content-center align-items-center">
-                        <div class="icon-arrow-down icon" style="background-color: #fff;"></div>
+                <!-- Page title & add button -->
+                <div class="main-content-title display-flex justify-content-between">
+                    <div class="content-title-infor ">Ứng viên</div>
+                    <div class="display-flex ">
+                        <div class="button-action-add button-action-left display-flex align-items-center" id="button-add-candidate">
+                            <span><div class="icon-add icon" style="background-color: #fff;"></div></span>
+                            <span >Thêm ứng viên</span>
+                        </div>
+                        <div class="button-action-add button-action-right content-title-arrow-down display-flex justify-content-center align-items-center">
+                            <div class="icon-arrow-down icon" style="background-color: #fff;"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            <!-- Main Content Container -->
             <div class="main-content-container display-flex flex1 flex-direction-column">
+                <!-- Tool Bar -->
                 <div class="main-content-toolbar display-flex align-items-center justify-content-between">
                     <!-- Toolbar Left -->
                     <div class="content-toolbar-left display-flex align-items-center">
@@ -184,9 +192,11 @@
                         </div>
 
                 </div>
+                <!-- Candidate Table -->
                 <div class="main-content-candidate">
                     <div class="candidate-table-container">
                         <table id="candidateTableBody" class="candidate-table">
+                            <!-- Table header -->
                             <thead>
                                 <tr>
                                     <th class="col-checkbox">
@@ -215,6 +225,7 @@
                                     <th>Thuộc kho tiềm năng</th>
                                 </tr>
                             </thead>
+                            <!-- Table body rendered by JS -->
                             <tbody>
                                 <tr>
                                     <td class="col-checkbox">
@@ -382,7 +393,7 @@
                             </div>
                             <input type="text" class="input-infor" placeholder="Nhập địa chỉ" />
                         </div>
-                        <!-- HỌC VẤN Section -->
+                        <!-- HỌC VẤN  -->
                         <div class="section-container education-section boder-bottom">
 
                             <div class="section-title">HỌC VẤN</div>
@@ -600,7 +611,7 @@
         </div>
     </div>
 
-    <!-- Icon Edit -->
+    <!-- Icon Edit Candidate -->
     <div id="editFloatingIcon" class="floating-icon">
         ✏️
     </div>
