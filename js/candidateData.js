@@ -429,4 +429,7 @@ export const candidateData = [
 
 ];
 
-localStorage.setItem("candidateList", JSON.stringify(candidateData));
+const existingData = localStorage.getItem("candidateList");
+if (!existingData) {
+    localStorage.setItem("candidateList", JSON.stringify(candidateData));
+}

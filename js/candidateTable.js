@@ -62,6 +62,8 @@ export function renderCandidateTable(data) {
     const tbody = document.querySelector(".candidate-table tbody");
     tbody.innerHTML = "";
 
+    data.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
     data.forEach(item => {
         const tr = document.createElement("tr");
         tr.dataset.id = item.id; 
